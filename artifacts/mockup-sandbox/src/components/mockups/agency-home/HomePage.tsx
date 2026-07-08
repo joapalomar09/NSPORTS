@@ -212,7 +212,6 @@ const Alianza = () => {
         <div className="flex flex-wrap items-center justify-center gap-8 md:gap-14 mb-10">
           <div className="flex items-center gap-2">
             <img src="/__mockup/images/elite-sport-logo.png" alt="NSPORT" className="h-12 w-auto" />
-            <div className="w-2 h-2 rounded-full bg-[#C6A25D]" />
           </div>
 
           <span className="font-bebas text-5xl md:text-6xl leading-none text-[#C6A25D]">&amp;</span>
