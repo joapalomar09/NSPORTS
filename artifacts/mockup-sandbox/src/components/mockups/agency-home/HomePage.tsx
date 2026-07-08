@@ -166,7 +166,7 @@ const StatsBar = () => {
   ];
 
   return (
-    <section id="nosotros" className="w-full bg-[#121212] border-y border-[#2B2B2B] py-16">
+    <section id="nosotros" className="w-full bg-[#121212] border-y border-[#2B2B2B] py-16 scroll-mt-44">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x-0 md:divide-x divide-[#2B2B2B]">
           {stats.map((stat, i) => (
@@ -214,7 +214,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="servicios" className="py-24 bg-[#090909]">
+    <section id="servicios" className="py-24 bg-[#090909] scroll-mt-44">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col items-center text-center mb-16">
           <span className="font-montserrat font-bold text-[#C6A25D] tracking-[0.2em] uppercase text-sm mb-4">Nuestros Servicios</span>
@@ -282,7 +282,7 @@ const Jugadores = () => {
   ];
 
   return (
-    <section id="jugadores" className="py-24 bg-[#121212]">
+    <section id="jugadores" className="py-24 bg-[#121212] scroll-mt-44">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div>
@@ -376,7 +376,7 @@ const CasosExito = () => {
   ];
 
   return (
-    <section id="scouting" className="py-24 bg-[#090909]">
+    <section id="scouting" className="py-24 bg-[#090909] scroll-mt-44">
       <div className="max-w-4xl mx-auto px-6">
         <div className="flex flex-col items-center text-center mb-20">
           <span className="font-montserrat font-bold text-[#C6A25D] tracking-[0.2em] uppercase text-sm mb-4">Trayectoria</span>
@@ -458,7 +458,7 @@ const Testimonials = () => {
 
 const CTA = () => {
   return (
-    <section id="contacto" className="relative py-32 bg-[#090909] overflow-hidden border-b border-[#2B2B2B]">
+    <section id="contacto" className="relative py-32 bg-[#090909] overflow-hidden border-b border-[#2B2B2B] scroll-mt-44">
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-40 mix-blend-luminosity"
         style={{ backgroundImage: "url(/__mockup/images/agency-stadium.jpg)" }}
