@@ -1,0 +1,880 @@
+Al configurar el proyecto, crea siempre un archivo vercel.json en la raíz para asegurar el despliegue correcto de una SPA (Single Page Application) con Vite.
+El archivo debe tener exactamente esta configuración:
+framework: "vite"
+outputDirectory: "dist/public"
+rewrites: Una regla que redirija todas las rutas (source: "/(.*)") a /index.html para que el routing del lado del cliente funcione sin errores 404.
+No esperes a que falle el deploy, inclúyelo desde el principio.
+
+PRODUCT REQUIREMENTS DOCUMENT (PRD)
+
+Sitio Web Premium – Agencia de Representación de Futbolistas
+
+Documento Maestro para Replit AI
+
+⸻
+
+OBJETIVO DEL PROYECTO
+
+Desarrollar una plataforma web premium para una agencia de representación de futbolistas profesionales y juveniles que transmita prestigio, confianza, innovación y proyección internacional.
+
+La web debe posicionar a la agencia como una de las más importantes de Argentina y Latinoamérica, con una identidad visual propia, evitando copiar otros sitios. La experiencia debe ser comparable a una marca de lujo del deporte, con un enfoque cinematográfico, navegación fluida y excelente rendimiento.
+
+El sitio debe estar diseñado para captar nuevos talentos, generar confianza en jugadores, familias y clubes, exhibir los futbolistas representados y servir como carta de presentación institucional.
+
+⸻
+
+OBJETIVOS COMERCIALES
+
+* Conseguir solicitudes de representación.
+* Mostrar profesionalismo desde el primer contacto.
+* Presentar el portfolio de jugadores.
+* Generar confianza en clubes nacionales e internacionales.
+* Posicionar la marca mediante contenido y SEO.
+* Facilitar el contacto desde cualquier dispositivo.
+* Permitir escalar el sitio sin rediseños futuros.
+
+⸻
+
+PERSONALIDAD DE LA MARCA
+
+La agencia comunica:
+
+* Profesionalismo
+* Honestidad
+* Exclusividad
+* Transparencia
+* Liderazgo
+* Cercanía
+* Innovación
+* Visión internacional
+* Desarrollo humano
+* Excelencia
+
+La comunicación debe ser elegante, moderna y segura. Nunca utilizar lenguaje exagerado o promesas irreales.
+
+⸻
+
+ESTILO VISUAL
+
+Inspiración:
+
+* Marcas deportivas premium.
+* Estudios creativos de clubes europeos.
+* Producciones audiovisuales cinematográficas.
+* Editoriales deportivas.
+
+Nunca copiar un sitio existente.
+
+Crear una identidad propia.
+
+⸻
+
+PALETA DE COLORES
+
+Negro profundo #090909
+
+Negro carbón #121212
+
+Gris grafito #2B2B2B
+
+Blanco #FFFFFF
+
+Dorado elegante #C6A25D
+
+Verde éxito #2ECC71
+
+Rojo alerta #E74C3C
+
+⸻
+
+TIPOGRAFÍAS
+
+Títulos:
+Bebas Neue
+
+Subtítulos:
+Montserrat SemiBold
+
+Texto:
+Inter
+
+Botones:
+Montserrat Bold
+
+⸻
+
+EXPERIENCIA VISUAL
+
+Toda la web debe sentirse cinematográfica.
+
+Videos en autoplay.
+
+Sin sonido.
+
+Carga inmediata.
+
+Fondos dinámicos.
+
+Parallax.
+
+Microanimaciones.
+
+Efectos Blur.
+
+Glassmorphism muy sutil.
+
+Sombras suaves.
+
+Hover elegante.
+
+Transiciones entre páginas.
+
+Navbar transparente que cambia al hacer scroll.
+
+⸻
+
+TECNOLOGÍAS
+
+Framework:
+Next.js
+
+Lenguaje:
+TypeScript
+
+Estilos:
+Tailwind CSS
+
+Animaciones:
+Framer Motion
+
+ORM:
+Prisma
+
+Base de datos:
+PostgreSQL
+
+Backend:
+Supabase
+
+Autenticación:
+Supabase Auth
+
+Almacenamiento:
+Cloudinary
+
+Hosting:
+Vercel
+
+⸻
+
+ESTRUCTURA DEL SITIO
+
+Inicio
+
+Nosotros
+
+Servicios
+
+Jugadores
+
+Perfil del jugador
+
+Clubes
+
+Casos de éxito
+
+Noticias
+
+Scouting
+
+Contacto
+
+FAQ
+
+Política de privacidad
+
+Términos
+
+404 personalizada
+
+⸻
+
+HOME
+
+Hero
+
+Video 4K ocupando toda la pantalla.
+
+Jugador entrando al estadio.
+
+Entrenamiento.
+
+Celebración.
+
+Túnel.
+
+Plano detalle de botines.
+
+Plano detalle del césped.
+
+Luces del estadio.
+
+Título enorme:
+
+“Construimos carreras. Potenciamos talento.”
+
+Subtítulo:
+
+Representación integral para futbolistas que buscan alcanzar su máximo potencial dentro y fuera de la cancha.
+
+Botón principal
+
+Quiero ser representado
+
+Botón secundario
+
+Conocé la agencia
+
+Indicador de scroll animado.
+
+⸻
+
+Estadísticas
+
+Contadores animados.
+
++100 jugadores
+
++30 clubes
+
++10 países
+
++15 años
+
+⸻
+
+Servicios
+
+Cards con iconos lineales.
+
+Cada card posee animación.
+
+Representación
+
+Transferencias
+
+Marketing
+
+Asesoramiento
+
+Scouting
+
+Negociaciones
+
+Patrocinios
+
+Imagen personal
+
+Preparación profesional
+
+Networking
+
+⸻
+
+Jugadores Destacados
+
+Cards premium.
+
+Imagen.
+
+Nombre.
+
+Edad.
+
+Posición.
+
+Club.
+
+Bandera.
+
+Botón Ver Perfil.
+
+Hover con efecto de iluminación.
+
+⸻
+
+Clubes
+
+Carrusel infinito.
+
+Escudos.
+
+Escala al hacer hover.
+
+Tooltip con nombre.
+
+⸻
+
+Casos de Éxito
+
+Timeline.
+
+Jugador.
+
+Club origen.
+
+Club destino.
+
+Año.
+
+Descripción.
+
+⸻
+
+Testimonios
+
+Slider automático.
+
+Jugadores.
+
+Padres.
+
+Entrenadores.
+
+Presidentes.
+
+⸻
+
+CTA Final
+
+Gran fotografía.
+
+Título:
+
+Tu próximo paso comienza hoy.
+
+Botón:
+
+Solicitar representación.
+
+⸻
+
+PÁGINA NOSOTROS
+
+Historia.
+
+Valores.
+
+Misión.
+
+Visión.
+
+Equipo.
+
+Representantes.
+
+Fotos profesionales.
+
+Timeline de crecimiento.
+
+⸻
+
+SERVICIOS
+
+Página individual para cada servicio.
+
+Representación deportiva
+
+Transferencias nacionales
+
+Transferencias internacionales
+
+Negociación contractual
+
+Asesoramiento jurídico
+
+Asesoramiento financiero
+
+Marketing deportivo
+
+Branding personal
+
+Patrocinios
+
+Comunicación
+
+Gestión de carrera
+
+Preparación profesional
+
+⸻
+
+JUGADORES
+
+Buscador.
+
+Filtros.
+
+Posición.
+
+Edad.
+
+Categoría.
+
+País.
+
+Club.
+
+Pie hábil.
+
+Altura.
+
+Peso.
+
+Todos los filtros deben ser dinámicos.
+
+⸻
+
+PERFIL DEL JUGADOR
+
+Foto principal.
+
+Galería.
+
+Video.
+
+Nombre.
+
+Edad.
+
+Fecha de nacimiento.
+
+Altura.
+
+Peso.
+
+Pierna hábil.
+
+Posición.
+
+Club.
+
+Contrato.
+
+Representante.
+
+Biografía.
+
+Trayectoria.
+
+Estadísticas.
+
+Logros.
+
+Títulos.
+
+Videos destacados.
+
+Redes sociales.
+
+Descargar CV deportivo en PDF.
+
+Botón Compartir.
+
+Botón Contactar.
+
+⸻
+
+SCOUTING
+
+Formulario avanzado.
+
+Nombre.
+
+Apellido.
+
+Fecha de nacimiento.
+
+Provincia.
+
+País.
+
+Altura.
+
+Peso.
+
+Club.
+
+Posición.
+
+Pierna hábil.
+
+Correo.
+
+WhatsApp.
+
+Instagram.
+
+Video.
+
+Currículum.
+
+Observaciones.
+
+Subida de múltiples archivos.
+
+Barra de progreso.
+
+Validaciones.
+
+Mensaje de éxito.
+
+⸻
+
+BLOG
+
+Noticias.
+
+Transferencias.
+
+Entrevistas.
+
+Consejos.
+
+Mercado de pases.
+
+Categorías.
+
+Buscador.
+
+Etiquetas.
+
+Comentarios opcionales.
+
+⸻
+
+CONTACTO
+
+Formulario.
+
+WhatsApp.
+
+Correo.
+
+Mapa.
+
+Redes sociales.
+
+Horarios.
+
+CTA permanente.
+
+⸻
+
+FOOTER
+
+Logo.
+
+Descripción.
+
+Menú.
+
+Servicios.
+
+Redes.
+
+Newsletter.
+
+Copyright.
+
+Políticas.
+
+⸻
+
+PANEL ADMINISTRATIVO
+
+Login seguro.
+
+Roles:
+
+Administrador
+
+Representante
+
+Editor
+
+Dashboard con métricas.
+
+⸻
+
+Gestión de jugadores
+
+Crear.
+
+Editar.
+
+Eliminar.
+
+Subir imágenes.
+
+Subir videos.
+
+Subir PDF.
+
+Asignar clubes.
+
+Asignar representante.
+
+⸻
+
+Gestión de noticias
+
+Editor enriquecido.
+
+Categorías.
+
+Programar publicación.
+
+SEO.
+
+Imagen destacada.
+
+⸻
+
+Gestión de clubes
+
+Escudo.
+
+Nombre.
+
+País.
+
+Liga.
+
+Sitio web.
+
+Estado.
+
+⸻
+
+Gestión de formularios
+
+Ver solicitudes.
+
+Filtrar.
+
+Responder.
+
+Exportar Excel.
+
+⸻
+
+BASE DE DATOS
+
+Tablas:
+
+Usuarios
+
+Jugadores
+
+Representantes
+
+Clubes
+
+Noticias
+
+Galerías
+
+Videos
+
+Logros
+
+Solicitudes
+
+Configuraciones
+
+Patrocinadores
+
+Redes Sociales
+
+⸻
+
+SEO
+
+Todas las páginas deben tener:
+
+Meta Title.
+
+Meta Description.
+
+Canonical.
+
+Schema.org.
+
+OpenGraph.
+
+Twitter Cards.
+
+Breadcrumbs.
+
+Sitemap.
+
+robots.txt.
+
+URLs amigables.
+
+Optimización de Core Web Vitals.
+
+⸻
+
+ACCESIBILIDAD
+
+Cumplir WCAG 2.2 AA.
+
+Navegación por teclado.
+
+Contraste adecuado.
+
+Alt en imágenes.
+
+Etiquetas ARIA.
+
+Focus visible.
+
+⸻
+
+RENDIMIENTO
+
+Lighthouse superior a 95.
+
+Carga diferida de imágenes.
+
+Lazy Loading.
+
+Optimización de videos.
+
+Compresión.
+
+Caching.
+
+Prefetch.
+
+Preload.
+
+⸻
+
+RESPONSIVE
+
+Desktop.
+
+Notebook.
+
+Tablet horizontal.
+
+Tablet vertical.
+
+iPhone.
+
+Android.
+
+Pantallas ultra wide.
+
+⸻
+
+ANIMACIONES
+
+Framer Motion.
+
+Fade.
+
+Slide.
+
+Scale.
+
+Blur.
+
+Reveal.
+
+Parallax.
+
+Text Reveal.
+
+Cards flotantes.
+
+Hover elegante.
+
+Cursor interactivo.
+
+Carga con pantalla de bienvenida mostrando el logotipo animado antes de ingresar al sitio.
+
+⸻
+
+INTEGRACIONES
+
+WhatsApp.
+
+Instagram.
+
+Facebook.
+
+YouTube.
+
+LinkedIn.
+
+Google Maps.
+
+Google Analytics.
+
+Google Search Console.
+
+Meta Pixel.
+
+Cloudinary.
+
+Supabase.
+
+SMTP para envío de correos.
+
+⸻
+
+SEGURIDAD
+
+Protección CSRF.
+
+Protección XSS.
+
+Rate Limiting.
+
+Validación de formularios.
+
+Sanitización de datos.
+
+Backups automáticos.
+
+Autenticación segura.
+
+⸻
+
+COPYWRITING
+
+El tono debe transmitir liderazgo, confianza y cercanía.
+
+Ejemplos de títulos:
+
+“Construimos carreras que trascienden.”
+
+“Representamos talento con visión de futuro.”
+
+“Cada jugador merece una estrategia única.”
+
+“Tu próximo contrato comienza con una buena representación.”
+
+“El talento abre puertas. La preparación las mantiene abiertas.”
+
+Todos los textos deben ser originales, persuasivos y orientados a la conversión.
+
+⸻
+
+RESULTADO ESPERADO
+
+Generar un sitio web completamente funcional, con diseño premium, código limpio, arquitectura escalable, experiencia de usuario excepcional, preparado para producción y optimizado para captar nuevos futbolistas, fortalecer la imagen institucional de la agencia y facilitar la relación con clubes nacionales e internacionales.
