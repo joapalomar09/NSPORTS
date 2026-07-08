@@ -56,7 +56,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 w-full z-50 transition-all duration-500 border-b ${scrolled ? "bg-[#121212]/95 backdrop-blur-md border-[#2B2B2B]" : "bg-transparent border-transparent"}`}>
       <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <span className="font-bebas text-3xl tracking-widest text-white">ELITE SPORT</span>
+          <img src="/__mockup/images/elite-sport-logo.png" alt="Elite Sport" className="h-8 w-auto" />
           <div className="w-2 h-2 rounded-full bg-[#C6A25D]" />
         </div>
         
@@ -494,7 +494,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <span className="font-bebas text-3xl tracking-widest text-white">ELITE SPORT</span>
+              <img src="/__mockup/images/elite-sport-logo.png" alt="Elite Sport" className="h-9 w-auto" />
               <div className="w-2 h-2 rounded-full bg-[#C6A25D]" />
             </div>
             <p className="font-inter text-white/50 text-sm leading-relaxed max-w-xs">
