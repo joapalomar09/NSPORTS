@@ -54,9 +54,9 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-500 border-b ${scrolled ? "bg-[#121212]/95 backdrop-blur-md border-[#2B2B2B]" : "bg-transparent border-transparent"}`}>
-      <div className="max-w-7xl mx-auto px-6 h-44 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <img src="/__mockup/images/elite-sport-logo.png" alt="Elite Sport" className="h-[168px] w-auto" />
+      <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <img src="/__mockup/images/elite-sport-logo.png" alt="Elite Sport" className="h-10 w-auto" />
           <div className="w-2 h-2 rounded-full bg-[#C6A25D]" />
         </div>
         
@@ -77,7 +77,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`md:hidden absolute top-44 left-0 w-full bg-[#121212] border-b border-[#2B2B2B] flex flex-col items-center py-6 gap-6 transition-all duration-300 origin-top ${mobileMenuOpen ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0 pointer-events-none"}`}>
+      <div className={`md:hidden absolute top-24 left-0 w-full bg-[#121212] border-b border-[#2B2B2B] flex flex-col items-center py-6 gap-6 transition-all duration-300 origin-top ${mobileMenuOpen ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0 pointer-events-none"}`}>
         {["Nosotros", "Servicios", "Jugadores", "Scouting", "Contacto"].map(item => (
           <a key={item} href={`#${item.toLowerCase()}`} onClick={() => setMobileMenuOpen(false)} className="text-lg font-montserrat font-semibold text-white hover:text-[#C6A25D] transition-colors uppercase tracking-wider">
             {item}
@@ -166,7 +166,7 @@ const StatsBar = () => {
   ];
 
   return (
-    <section id="nosotros" className="w-full bg-[#121212] border-y border-[#2B2B2B] py-16 scroll-mt-44">
+    <section id="nosotros" className="w-full bg-[#121212] border-y border-[#2B2B2B] py-16 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x-0 md:divide-x divide-[#2B2B2B]">
           {stats.map((stat, i) => (
@@ -214,7 +214,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="servicios" className="py-24 bg-[#090909] scroll-mt-44">
+    <section id="servicios" className="py-24 bg-[#090909] scroll-mt-24">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col items-center text-center mb-16">
           <span className="font-montserrat font-bold text-[#C6A25D] tracking-[0.2em] uppercase text-sm mb-4">Nuestros Servicios</span>
@@ -282,7 +282,7 @@ const Jugadores = () => {
   ];
 
   return (
-    <section id="jugadores" className="py-24 bg-[#121212] scroll-mt-44">
+    <section id="jugadores" className="py-24 bg-[#121212] scroll-mt-24">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div>
@@ -374,7 +374,7 @@ const CasosExito = () => {
   ];
 
   return (
-    <section id="scouting" className="py-24 bg-[#090909] scroll-mt-44">
+    <section id="scouting" className="py-24 bg-[#090909] scroll-mt-24">
       <div className="max-w-4xl mx-auto px-6">
         <div className="flex flex-col items-center text-center mb-20">
           <span className="font-montserrat font-bold text-[#C6A25D] tracking-[0.2em] uppercase text-sm mb-4">Trayectoria</span>
@@ -456,7 +456,7 @@ const Testimonials = () => {
 
 const Footer = () => {
   return (
-    <footer id="contacto" className="bg-[#090909] pt-20 pb-10 border-t-2 border-[#C6A25D] scroll-mt-44">
+    <footer id="contacto" className="bg-[#090909] pt-20 pb-10 border-t-2 border-[#C6A25D] scroll-mt-24">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           <div>
