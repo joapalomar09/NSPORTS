@@ -14,7 +14,7 @@ crear el proyecto en el dashboard de Vercel:
 4. **Install Command**: dejalo en automático (Vercel detecta pnpm por el
    lockfile y corre `pnpm install` en la raíz del monorepo).
 5. **Build Command**: ya viene desactivado por `vercel.json`
-   (`"buildCommand": false`). Es intencional: no necesitamos generar el
+   (`"buildCommand": null`). Es intencional: no necesitamos generar el
    bundle de `dist/index.mjs` (eso es solo para el deploy en Replit); Vercel
    compila `api/index.ts` de forma aislada mediante su runtime de Node.js
    serverless.
