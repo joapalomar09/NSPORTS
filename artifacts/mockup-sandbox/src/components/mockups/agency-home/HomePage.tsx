@@ -13,7 +13,8 @@ import {
   UserCircle, 
   Dumbbell, 
   Globe,
-  Quote
+  Quote,
+  Instagram
 } from "lucide-react";
 
 // --- CUSTOM HOOKS ---
@@ -485,16 +486,20 @@ const Footer = () => {
           <div>
             <h4 className="font-montserrat font-bold text-white uppercase text-sm tracking-widest mb-6">Contacto</h4>
             <ul className="space-y-3 mb-8">
-              <li className="font-inter text-white/50 text-sm">Buenos Aires, Argentina</li>
+              <li className="font-inter text-white/50 text-sm">Córdoba, Argentina</li>
               <li className="font-inter text-white/50 text-sm">Madrid, España</li>
-              <li className="font-inter text-white/50 text-sm">info@elitesport.com</li>
+              <li className="font-inter text-white/50 text-sm">info@nsports.com</li>
             </ul>
             <div className="flex gap-4">
-              {["IG", "YT", "LI", "WA"].map(social => (
-                <a key={social} href="#" className="w-10 h-10 rounded-full border border-[#2B2B2B] flex items-center justify-center text-white/50 hover:text-[#C6A25D] hover:border-[#C6A25D] transition-colors cursor-pointer">
-                  <span className="font-montserrat font-bold text-xs">{social}</span>
-                </a>
-              ))}
+              <a
+                href="https://www.instagram.com/agencia.nsport?igsh=MWI5bHBjaG1mem42Nw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="w-10 h-10 rounded-full border border-[#2B2B2B] flex items-center justify-center text-white/50 hover:text-[#C6A25D] hover:border-[#C6A25D] transition-colors cursor-pointer"
+              >
+                <Instagram size={16} />
+              </a>
             </div>
           </div>
         </div>
