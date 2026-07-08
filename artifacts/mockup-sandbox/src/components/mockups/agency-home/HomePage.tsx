@@ -235,7 +235,7 @@ const Services = () => {
   );
 };
 
-const PlayerCard = ({ name, age, position, club, delay }: { name: string, age: number, position: string, club: string, delay: number }) => {
+const PlayerCard = ({ name, age, position, club, image, delay }: { name: string, age: number, position: string, club: string, image: string, delay: number }) => {
   const [ref, isIntersecting] = useIntersectionObserver();
 
   return (
@@ -246,7 +246,7 @@ const PlayerCard = ({ name, age, position, club, delay }: { name: string, age: n
     >
       <div className="absolute inset-0 z-0">
         <img 
-          src="/__mockup/images/agency-player.jpg" 
+          src={image} 
           alt={name}
           className="w-full h-full object-cover object-top filter grayscale opacity-60 transition-all duration-700 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105"
         />
@@ -277,15 +277,15 @@ const PlayerCard = ({ name, age, position, club, delay }: { name: string, age: n
 const Jugadores = () => {
   const [showAll, setShowAll] = useState(false);
   const players = [
-    { name: "Ramiro Tulián", age: 18, position: "DEL", club: "Belgrano" },
-    { name: "Lautaro Barraza", age: 20, position: "DEL", club: "Cancún FC" },
-    { name: "Pedro Gutiérrez", age: 20, position: "DEF", club: "Belgrano" },
-    { name: "Bautista Torres", age: 16, position: "DEL", club: "Banfield" },
-    { name: "Francisco Mansilla", age: 14, position: "DEL", club: "Belgrano" },
-    { name: "Matías Macagno", age: 14, position: "DEL", club: "Talleres" },
-    { name: "Benicio Zapata", age: 14, position: "MED", club: "Talleres" },
-    { name: "Ignacio Ludueña", age: 16, position: "DEL", club: "Instituto" },
-    { name: "Kevin Garay", age: 20, position: "DEL", club: "Belgrano" },
+    { name: "Ramiro Tulián", age: 18, position: "DEL", club: "Belgrano", image: "/__mockup/images/ramiro-tulian-2.jpg" },
+    { name: "Lautaro Barraza", age: 20, position: "DEL", club: "Cancún FC", image: "/__mockup/images/agency-player.jpg" },
+    { name: "Pedro Gutiérrez", age: 20, position: "DEF", club: "Belgrano", image: "/__mockup/images/agency-player.jpg" },
+    { name: "Bautista Torres", age: 16, position: "DEL", club: "Banfield", image: "/__mockup/images/agency-player.jpg" },
+    { name: "Francisco Mansilla", age: 14, position: "DEL", club: "Belgrano", image: "/__mockup/images/agency-player.jpg" },
+    { name: "Matías Macagno", age: 14, position: "DEL", club: "Talleres", image: "/__mockup/images/agency-player.jpg" },
+    { name: "Benicio Zapata", age: 14, position: "MED", club: "Talleres", image: "/__mockup/images/agency-player.jpg" },
+    { name: "Ignacio Ludueña", age: 16, position: "DEL", club: "Instituto", image: "/__mockup/images/agency-player.jpg" },
+    { name: "Kevin Garay", age: 20, position: "DEL", club: "Belgrano", image: "/__mockup/images/agency-player.jpg" },
   ];
 
   return (
