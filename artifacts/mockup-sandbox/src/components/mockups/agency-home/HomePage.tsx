@@ -275,6 +275,7 @@ const PlayerCard = ({ name, age, position, club, delay }: { name: string, age: n
 };
 
 const Jugadores = () => {
+  const [showAll, setShowAll] = useState(false);
   const players = [
     { name: "Ramiro Tulián", age: 18, position: "DEL", club: "Belgrano" },
     { name: "Lautaro Barraza", age: 20, position: "DEL", club: "Cancún FC" },
@@ -295,13 +296,16 @@ const Jugadores = () => {
             <span className="font-montserrat font-bold text-[#C6A25D] tracking-[0.2em] uppercase text-sm mb-4 block">Talento de Exportación</span>
             <h2 className="font-bebas text-5xl md:text-7xl text-white tracking-wider">Jugadores Destacados</h2>
           </div>
-          <button className="font-montserrat font-bold text-white hover:text-[#C6A25D] text-sm uppercase tracking-widest transition-colors flex items-center gap-2 cursor-pointer">
-            Ver todos <ChevronRight size={16} />
+          <button
+            onClick={() => setShowAll(prev => !prev)}
+            className="font-montserrat font-bold text-white hover:text-[#C6A25D] text-sm uppercase tracking-widest transition-colors flex items-center gap-2 cursor-pointer"
+          >
+            {showAll ? "Ver menos" : "Ver todos"} <ChevronRight size={16} />
           </button>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {players.map((player, i) => (
+          {(showAll ? players : players.slice(0, 4)).map((player, i) => (
             <PlayerCard key={i} {...player} delay={i * 150} />
           ))}
         </div>
