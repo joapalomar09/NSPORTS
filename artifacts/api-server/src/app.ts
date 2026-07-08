@@ -11,7 +11,7 @@ app.use(
   pinoHttp({
     logger,
     serializers: {
-      req(req: IncomingMessage & { id?: string | number }) {
+      req(req: IncomingMessage & { id?: string | number | object }) {
         return {
           id: req.id,
           method: req.method,
