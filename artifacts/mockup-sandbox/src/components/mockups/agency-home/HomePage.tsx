@@ -276,10 +276,15 @@ const PlayerCard = ({ name, age, position, club, delay }: { name: string, age: n
 
 const Jugadores = () => {
   const players = [
-    { name: "Mateo Silva", age: 21, position: "DEL", club: "Boca Juniors" },
-    { name: "Lucas Rossi", age: 19, position: "MED", club: "River Plate" },
-    { name: "Tomás Costa", age: 24, position: "DEF", club: "Villarreal CF" },
-    { name: "Enzo Blanco", age: 20, position: "DEL", club: "SL Benfica" },
+    { name: "Ramiro Tulián", age: 18, position: "DEL", club: "Belgrano" },
+    { name: "Lautaro Barraza", age: 20, position: "DEL", club: "Cancún FC" },
+    { name: "Pedro Gutiérrez", age: 20, position: "DEF", club: "Belgrano" },
+    { name: "Bautista Torres", age: 16, position: "DEL", club: "Banfield" },
+    { name: "Francisco Mansilla", age: 14, position: "DEL", club: "Belgrano" },
+    { name: "Matías Macagno", age: 14, position: "DEL", club: "Talleres" },
+    { name: "Benicio Zapata", age: 14, position: "MED", club: "Talleres" },
+    { name: "Ignacio Ludueña", age: 16, position: "DEL", club: "Instituto" },
+    { name: "Kevin Garay", age: 20, position: "DEL", club: "Belgrano" },
   ];
 
   return (
