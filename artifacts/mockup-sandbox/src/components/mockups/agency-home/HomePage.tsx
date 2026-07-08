@@ -217,7 +217,7 @@ const Alianza = () => {
           <span className="font-bebas text-5xl md:text-6xl leading-none text-[#C6A25D]">&amp;</span>
 
           <div className="flex items-center gap-4">
-            <img src="/__mockup/images/bta-logo-white.png" alt="BTA - Behind the Athlete" className="h-24 w-auto" />
+            <img src="/__mockup/images/bta-logo-white.png" alt="BTA - Behind the Athlete" className="h-36 w-auto" />
             <a
               href="https://www.instagram.com/behindtheathleteteam?igsh=MXA2cXRvbmpmY3J2Ng=="
               target="_blank"
