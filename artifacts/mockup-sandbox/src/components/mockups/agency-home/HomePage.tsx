@@ -54,9 +54,9 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-500 border-b ${scrolled ? "bg-[#121212]/95 backdrop-blur-md border-[#2B2B2B]" : "bg-transparent border-transparent"}`}>
-      <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <img src="/__mockup/images/elite-sport-logo.png" alt="Elite Sport" className="h-14 w-auto" />
+      <div className="max-w-7xl mx-auto px-6 h-44 flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <img src="/__mockup/images/elite-sport-logo.png" alt="Elite Sport" className="h-[168px] w-auto" />
           <div className="w-2 h-2 rounded-full bg-[#C6A25D]" />
         </div>
         
@@ -77,7 +77,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`md:hidden absolute top-24 left-0 w-full bg-[#121212] border-b border-[#2B2B2B] flex flex-col items-center py-6 gap-6 transition-all duration-300 origin-top ${mobileMenuOpen ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0 pointer-events-none"}`}>
+      <div className={`md:hidden absolute top-44 left-0 w-full bg-[#121212] border-b border-[#2B2B2B] flex flex-col items-center py-6 gap-6 transition-all duration-300 origin-top ${mobileMenuOpen ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0 pointer-events-none"}`}>
         {["Nosotros", "Servicios", "Jugadores", "Scouting", "Contacto"].map(item => (
           <a key={item} href={`#${item.toLowerCase()}`} onClick={() => setMobileMenuOpen(false)} className="text-lg font-montserrat font-semibold text-white hover:text-[#C6A25D] transition-colors uppercase tracking-wider">
             {item}
