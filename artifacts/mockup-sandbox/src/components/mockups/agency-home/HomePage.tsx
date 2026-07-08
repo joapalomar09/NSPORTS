@@ -235,7 +235,7 @@ const Services = () => {
   );
 };
 
-const PlayerCard = ({ name, age, position, club, image, delay }: { name: string, age: number, position: string, club: string, image: string, delay: number }) => {
+const PlayerCard = ({ name, age, position, club, image, imagePosition, delay }: { name: string, age: number, position: string, club: string, image: string, imagePosition?: string, delay: number }) => {
   const [ref, isIntersecting] = useIntersectionObserver();
   const [firstName, ...rest] = name.split(" ");
   const lastName = rest.join(" ");
@@ -250,7 +250,8 @@ const PlayerCard = ({ name, age, position, club, image, delay }: { name: string,
         <img 
           src={image} 
           alt={name}
-          className="w-full h-full object-cover object-top filter grayscale opacity-60 transition-all duration-700 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105"
+          style={{ objectPosition: imagePosition || "center top" }}
+          className="w-full h-full object-cover filter grayscale opacity-60 transition-all duration-700 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#090909] via-[#090909]/80 to-transparent" />
         {/* Glow effect on hover */}
@@ -288,7 +289,7 @@ const Jugadores = () => {
     { name: "Francisco Mansilla", age: 14, position: "DEL", club: "Belgrano", image: "/__mockup/images/francisco-mansilla.jpg" },
     { name: "Matías Macagno", age: 14, position: "DEL", club: "Talleres", image: "/__mockup/images/matias-macagno.jpg" },
     { name: "Benicio Zapata", age: 14, position: "MED", club: "Talleres", image: "/__mockup/images/benicio-zapata.jpg" },
-    { name: "Ignacio Ludueña", age: 16, position: "DEL", club: "Instituto", image: "/__mockup/images/ignacio-luduena.jpg" },
+    { name: "Ignacio Ludueña", age: 16, position: "DEL", club: "Instituto", image: "/__mockup/images/ignacio-luduena.jpg", imagePosition: "70% 30%" },
     { name: "Kevin Garay", age: 20, position: "DEL", club: "Belgrano", image: "/__mockup/images/kevin-garay.jpg" },
   ];
 
