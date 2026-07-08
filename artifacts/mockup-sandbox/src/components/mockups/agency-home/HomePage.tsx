@@ -214,7 +214,7 @@ const Alianza = () => {
             <img src="/__mockup/images/elite-sport-logo.png" alt="NSPORT" className="h-6 w-auto" />
           </div>
 
-          <span className="font-bebas md:text-6xl text-[#C6A25D] text-xl font-normal">&amp;</span>
+          <span className="font-bebas md:text-6xl text-[#C6A25D] font-normal text-xl">&amp;</span>
 
           <div className="flex items-center gap-4">
             <img src="/__mockup/images/bta-logo-white.png" alt="BTA - Behind the Athlete" className="h-6 w-auto" />
