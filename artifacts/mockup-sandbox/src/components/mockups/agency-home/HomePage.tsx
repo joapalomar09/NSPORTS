@@ -479,9 +479,7 @@ const Footer = () => {
               <img src="/__mockup/images/elite-sport-logo.png" alt="Elite Sport" className="h-9 w-auto" />
               <div className="w-2 h-2 rounded-full bg-[#C6A25D]" />
             </div>
-            <p className="font-inter text-white/50 text-sm leading-relaxed max-w-xs">
-              Agencia líder en representación integral de futbolistas. Conectando talento sudamericano con el más alto nivel del fútbol mundial.
-            </p>
+            <p className="font-inter text-white/50 text-sm leading-relaxed max-w-xs">Agencia líder en representación integral de futbolistas. Conectando el talento con el más alto nivel del fútbol mundial.</p>
           </div>
           
           <div>
