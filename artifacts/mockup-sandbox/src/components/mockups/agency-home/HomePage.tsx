@@ -209,7 +209,7 @@ const Services = () => {
     { icon: Handshake, title: "Negociaciones", description: "Optimización de contratos laborales y acuerdos comerciales." },
     { icon: Award, title: "Patrocinios", description: "Búsqueda y gestión de sponsors y marcas deportivas." },
     { icon: UserCircle, title: "Imagen Personal", description: "Relaciones públicas y manejo de crisis en medios de comunicación." },
-    { icon: Dumbbell, title: "Preparación Profesional", description: "Entrenamiento invisible, nutrición y psicología deportiva." },
+    { icon: Dumbbell, title: "Preparación Profesional", description: "Entrenamiento físico, nutrición y psicología deportiva." },
     { icon: Globe, title: "Networking", description: "Conexiones directas con direcciones deportivas de clubes europeos." },
   ];
 
