@@ -214,7 +214,7 @@ const Alianza = () => {
             <img src="/__mockup/images/elite-sport-logo.png" alt="NSPORT" className="h-12 w-auto" />
           </div>
 
-          <span className="font-bebas text-5xl md:text-6xl leading-none text-[#C6A25D]">&amp;</span>
+          <span className="font-bebas md:text-6xl text-[#C6A25D] text-xl font-normal">&amp;</span>
 
           <div className="flex items-center gap-4">
             <img src="/__mockup/images/bta-logo-white.png" alt="BTA - Behind the Athlete" className="h-36 w-auto" />
@@ -230,7 +230,7 @@ const Alianza = () => {
           </div>
         </div>
 
-        <p className="font-inter text-white/70 leading-relaxed max-w-2xl text-base md:text-lg">
+        <p className="font-inter text-white/70 max-w-2xl text-base md:text-lg text-justify">
           NSPORT se une a <span className="text-white font-semibold">BTA (Behind the Athlete)</span> en una alianza estratégica internacional que potencia el desarrollo de nuestros jugadores hacia el mercado europeo, combinando red de contactos, experiencia en negociaciones y estructura profesional a ambos lados del Atlántico.
         </p>
       </div>
