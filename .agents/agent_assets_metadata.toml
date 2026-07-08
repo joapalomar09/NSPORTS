@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "Sg3mIp2lOjIq7NceaQlLj"
+uri = "file://exports/nsport-vercel-ready.zip"
+type = "unspecified"
+title = "NSPORT — proyecto listo para Vercel (nsport-web + api-server)"
