@@ -215,10 +215,19 @@ const Alianza = () => {
             <div className="w-2 h-2 rounded-full bg-[#C6A25D]" />
           </div>
 
-          <span className="text-5xl md:text-6xl leading-none">🤝🏼</span>
+          <span className="font-bebas text-5xl md:text-6xl leading-none text-[#C6A25D]">&amp;</span>
 
-          <div className="bg-white px-6 py-4 flex items-center justify-center">
-            <img src="/__mockup/images/bta-logo.jpg" alt="BTA - Behind the Athlete" className="h-12 md:h-14 w-auto" />
+          <div className="flex items-center gap-4">
+            <img src="/__mockup/images/bta-logo-white.png" alt="BTA - Behind the Athlete" className="h-12 w-auto" />
+            <a
+              href="https://www.instagram.com/behindtheathleteteam?igsh=MXA2cXRvbmpmY3J2Ng=="
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram de BTA - Behind the Athlete"
+              className="w-9 h-9 flex items-center justify-center border border-[#2B2B2B] rounded-full text-white/70 hover:text-[#C6A25D] hover:border-[#C6A25D] transition-colors"
+            >
+              <Instagram size={16} />
+            </a>
           </div>
         </div>
 
