@@ -454,40 +454,9 @@ const Testimonials = () => {
   );
 };
 
-const CTA = () => {
-  return (
-    <section id="contacto" className="relative py-32 bg-[#090909] overflow-hidden border-b border-[#2B2B2B] scroll-mt-44">
-      <div 
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-40 mix-blend-luminosity"
-        style={{ backgroundImage: "url(/__mockup/images/agency-stadium.jpg)" }}
-      />
-      <div className="absolute inset-0 z-0 bg-gradient-to-t from-[#090909] via-[#090909]/80 to-transparent" />
-      
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-        <h2 className="font-bebas text-6xl md:text-8xl text-white tracking-wider mb-6">
-          Tu próximo paso <br />
-          <span className="text-[#C6A25D]">comienza hoy.</span>
-        </h2>
-        <p className="font-inter text-white/70 text-lg mb-12 max-w-2xl mx-auto">
-          Dejanos tus datos y un representante de nuestro equipo se pondrá en contacto para evaluar tu perfil.
-        </p>
-        
-        <div className="flex flex-col items-center gap-6">
-          <button className="px-10 py-5 bg-[#C6A25D] hover:bg-[#b08f4c] text-[#090909] font-montserrat font-bold uppercase tracking-widest text-sm transition-all duration-300 shadow-[0_0_30px_rgba(198,162,93,0.3)] hover:shadow-[0_0_40px_rgba(198,162,93,0.5)] hover:-translate-y-1 cursor-pointer">
-            Solicitar representación
-          </button>
-          <a href="#" className="font-montserrat font-semibold text-white/60 hover:text-white text-xs uppercase tracking-widest transition-colors flex items-center gap-2 cursor-pointer">
-            ¿Tenés preguntas? Hablanos por WhatsApp <ChevronRight size={14} />
-          </a>
-        </div>
-      </div>
-    </section>
-  );
-};
-
 const Footer = () => {
   return (
-    <footer className="bg-[#090909] pt-20 pb-10 border-t-2 border-[#C6A25D]">
+    <footer id="contacto" className="bg-[#090909] pt-20 pb-10 border-t-2 border-[#C6A25D] scroll-mt-44">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           <div>
@@ -588,7 +557,6 @@ export function HomePage() {
           <Marquee />
           <CasosExito />
           <Testimonials />
-          <CTA />
         </main>
         <Footer />
       </div>
