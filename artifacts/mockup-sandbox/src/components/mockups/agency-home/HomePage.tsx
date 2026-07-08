@@ -305,7 +305,7 @@ const Jugadores = () => {
 };
 
 const Marquee = () => {
-  const clubs = ["RMA", "BAR", "MCI", "JUV", "ARS", "PSG", "BYN", "ATM", "INT", "BOC", "RIV", "SLB", "POR", "AJA"];
+  const clubs = ["Belgrano", "Talleres", "Instituto", "Banfield", "Cancún FC"];
   
   return (
     <section className="py-12 bg-[#090909] border-y border-[#2B2B2B] overflow-hidden">
