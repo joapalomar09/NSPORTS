@@ -197,6 +197,39 @@ const ServiceCard = ({ icon: Icon, title, description, delay }: { icon: any, tit
   );
 };
 
+const Alianza = () => {
+  const [ref, isIntersecting] = useIntersectionObserver();
+
+  return (
+    <section id="alianza" className="py-24 bg-[#121212] border-y border-[#2B2B2B] scroll-mt-24">
+      <div
+        ref={ref}
+        className={`max-w-5xl mx-auto px-6 flex flex-col items-center text-center transition-all duration-700 ${isIntersecting ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+      >
+        <span className="font-montserrat font-bold text-[#C6A25D] tracking-[0.2em] uppercase text-sm mb-4">Alianza</span>
+        <h2 className="font-bebas text-5xl md:text-7xl text-white tracking-wider mb-12">Cooperación Internacional</h2>
+
+        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-14 mb-10">
+          <div className="flex items-center gap-2">
+            <img src="/__mockup/images/elite-sport-logo.png" alt="NSPORT" className="h-12 w-auto" />
+            <div className="w-2 h-2 rounded-full bg-[#C6A25D]" />
+          </div>
+
+          <span className="text-5xl md:text-6xl leading-none">🤝🏼</span>
+
+          <div className="bg-white px-6 py-4 flex items-center justify-center">
+            <img src="/__mockup/images/bta-logo.jpg" alt="BTA - Behind the Athlete" className="h-12 md:h-14 w-auto" />
+          </div>
+        </div>
+
+        <p className="font-inter text-white/70 leading-relaxed max-w-2xl text-base md:text-lg">
+          NSPORT se une a <span className="text-white font-semibold">BTA (Behind the Athlete)</span> en una alianza estratégica internacional que potencia el desarrollo de nuestros jugadores hacia el mercado europeo, combinando red de contactos, experiencia en negociaciones y estructura profesional a ambos lados del Atlántico.
+        </p>
+      </div>
+    </section>
+  );
+};
+
 const Services = () => {
   const services = [
     { icon: Shield, title: "Representación", description: "Gestión integral de la carrera del futbolista profesional y juvenil." },
@@ -566,6 +599,7 @@ export function HomePage() {
         <main>
           <Hero />
           <StatsBar />
+          <Alianza />
           <Services />
           <Jugadores />
           <Marquee />
