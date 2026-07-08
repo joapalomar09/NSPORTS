@@ -211,13 +211,13 @@ const Alianza = () => {
 
         <div className="flex flex-wrap items-center justify-center gap-8 md:gap-14 mb-10">
           <div className="flex items-center gap-2">
-            <img src="/__mockup/images/elite-sport-logo.png" alt="NSPORT" className="h-12 w-auto" />
+            <img src="/__mockup/images/elite-sport-logo.png" alt="NSPORT" className="h-6 w-auto" />
           </div>
 
           <span className="font-bebas md:text-6xl text-[#C6A25D] text-xl font-normal">&amp;</span>
 
           <div className="flex items-center gap-4">
-            <img src="/__mockup/images/bta-logo-white.png" alt="BTA - Behind the Athlete" className="h-12 w-auto" />
+            <img src="/__mockup/images/bta-logo-white.png" alt="BTA - Behind the Athlete" className="h-6 w-auto" />
             <a
               href="https://www.instagram.com/behindtheathleteteam?igsh=MXA2cXRvbmpmY3J2Ng=="
               target="_blank"
