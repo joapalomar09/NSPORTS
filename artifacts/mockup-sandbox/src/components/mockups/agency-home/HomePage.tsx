@@ -106,10 +106,7 @@ const Hero = () => {
         <p className="font-inter text-lg md:text-xl text-white/80 max-w-2xl mb-12 font-light">
           Representación integral para futbolistas que buscan alcanzar su máximo potencial dentro y fuera de la cancha.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-          <button className="px-8 py-4 bg-[#C6A25D] hover:bg-[#b08f4c] text-[#090909] font-montserrat font-bold uppercase tracking-widest text-sm transition-all duration-300 cursor-pointer">
-            Quiero ser representado
-          </button>
+        <div className="flex justify-center w-full sm:w-auto">
           <button className="px-8 py-4 bg-transparent border border-[#2B2B2B] hover:border-[#C6A25D] text-white font-montserrat font-bold uppercase tracking-widest text-sm transition-all duration-300 cursor-pointer">
             Conocé la agencia
           </button>
