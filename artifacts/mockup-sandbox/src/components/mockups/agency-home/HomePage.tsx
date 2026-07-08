@@ -449,10 +449,10 @@ const CasosExito = () => {
 
 const Testimonials = () => {
   const testimonials = [
-    { quote: "Desde el primer día sentí que mi carrera estaba en manos de profesionales. No solo se encargan del contrato, se preocupan por vos como persona.", name: "Facundo M.", role: "Jugador Profesional" },
-    { quote: "La transparencia y la seriedad con la que manejan cada negociación es única. Entienden el mercado europeo a la perfección.", name: "Javier S.", role: "Director Deportivo" },
-    { quote: "Como padre, confiarle el futuro de tu hijo a alguien no es fácil. Con Elite Sport encontramos una familia que lo protege y potencia.", name: "Roberto C.", role: "Padre de Jugador" },
-    { quote: "La diferencia está en los detalles. El equipo de marketing y asesoría legal está siempre un paso adelante.", name: "Lucas P.", role: "Jugador Internacional" },
+    { quote: "Desde el primer día sentí que mi carrera estaba en buenas manos. No solo ven un contrato, se preocupan por vos como persona.", name: "Ramiro T.", role: "Jugador Profesional" },
+    { quote: "La transparencia y seriedad con la que manejan cada negociación es única. Entienden del mercado europeo a la perfección.", name: "Javier S.", role: "Director Deportivo" },
+    { quote: "Como padre, confiarle el futuro de tu hijo a alguien no es fácil. Con Nova Sports encontramos una familia que lo protege y potencia.", name: "Fernando Z.", role: "Padre de Jugador" },
+    { quote: "La diferencia está en los detalles. El equipo de asesoría legal está siempre un paso adelante.", name: "Lautaro B.", role: "Jugador Internacional" },
   ];
 
   const [current, setCurrent] = useState(0);
