@@ -506,7 +506,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-[#2B2B2B] gap-4">
           <p className="font-inter text-white/30 text-xs">
-            © {new Date().getFullYear()} Elite Sport Agency. Todos los derechos reservados.
+            © {new Date().getFullYear()} Nova Sports Agencia. Todos los derechos reservados.
           </p>
           <div className="flex gap-6">
             <a href="#" className="font-inter text-white/30 hover:text-white text-xs transition-colors">Política de privacidad</a>
