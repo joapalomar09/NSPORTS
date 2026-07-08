@@ -369,10 +369,8 @@ const CaseItem = ({ item, i }: { item: { year: string; origin: string; dest: str
 
 const CasosExito = () => {
   const cases = [
-    { year: "2023", origin: "River Plate", dest: "Manchester City", player: "F. Álvarez", desc: "Traspaso récord por €21M y contrato por 5 años." },
-    { year: "2022", origin: "Boca Juniors", dest: "Juventus FC", player: "L. Paredes", desc: "Negociación de contrato europeo y derechos de imagen." },
-    { year: "2021", origin: "Vélez Sarsfield", dest: "Atlanta United", player: "T. Almada", desc: "Transferencia a la MLS como Jugador Franquicia." },
-    { year: "2020", origin: "Rosario Central", dest: "Sevilla FC", player: "G. Lo Celso", desc: "Salto al mercado europeo y consolidación en La Liga." },
+    { year: "2026", origin: "Belgrano 🇦🇷", dest: "Belgrano 🇦🇷", player: "R. Tulián", desc: "Firma de su primer contrato profesional y renovación del mismo." },
+    { year: "2026", origin: "Cancún FC 🇲🇽", dest: "Cancún FC 🇲🇽", player: "L. Barraza", desc: "Traspaso internacional y contrato por 3 años." },
   ];
 
   return (
