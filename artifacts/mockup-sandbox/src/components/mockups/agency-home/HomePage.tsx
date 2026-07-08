@@ -159,10 +159,10 @@ const AnimatedCounter = ({ target, suffix = "", duration = 2000 }: { target: num
 
 const StatsBar = () => {
   const stats = [
-    { value: 100, suffix: "+", label: "Jugadores" },
-    { value: 30, suffix: "+", label: "Clubes" },
-    { value: 10, suffix: "+", label: "Países" },
-    { value: 15, suffix: "+", label: "Años" },
+    { value: 9, suffix: "+", label: "Jugadores" },
+    { value: 5, suffix: "+", label: "Clubes" },
+    { value: 3, suffix: "+", label: "Países" },
+    { value: 5, suffix: "+", label: "Años" },
   ];
 
   return (
