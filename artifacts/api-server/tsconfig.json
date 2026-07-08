@@ -4,11 +4,11 @@
     "incremental": true,
     "tsBuildInfoFile": ".tsbuildinfo",
     "outDir": "dist",
-    "rootDir": "src",
+    "rootDir": ".",
     "types": ["node"],
     "esModuleInterop": true
   },
-  "include": ["src"],
+  "include": ["src", "api"],
   "references": [
     {
       "path": "../../lib/db"
