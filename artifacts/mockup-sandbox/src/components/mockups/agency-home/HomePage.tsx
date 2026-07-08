@@ -370,7 +370,7 @@ const CaseItem = ({ item, i }: { item: { year: string; origin: string; dest: str
 const CasosExito = () => {
   const cases = [
     { year: "2026", origin: "Belgrano 🇦🇷", dest: "Belgrano 🇦🇷", player: "R. Tulián", desc: "Firma de su primer contrato profesional y renovación del mismo." },
-    { year: "2026", origin: "Cancún FC 🇲🇽", dest: "Cancún FC 🇲🇽", player: "L. Barraza", desc: "Traspaso internacional y contrato por 3 años." },
+    { year: "2026", origin: "Instituto 🇦🇷", dest: "Cancún FC 🇲🇽", player: "L. Barraza", desc: "Traspaso internacional y contrato por 3 años." },
   ];
 
   return (
