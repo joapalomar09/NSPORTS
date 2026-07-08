@@ -160,7 +160,7 @@ const StatsBar = () => {
     { value: 9, suffix: "+", label: "Jugadores" },
     { value: 5, suffix: "+", label: "Clubes" },
     { value: 3, suffix: "+", label: "Países" },
-    { value: 5, suffix: "+", label: "Años" },
+    { value: 4, suffix: "+", label: "Años" },
   ];
 
   return (
